@@ -1,0 +1,74 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* --- MENU SUPERIOR --- */
+.menu {
+    background-color: #febc05;
+    overflow: hidden;
+    height: 6vh;
+  }
+  
+.menu a {
+    float: right;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    height: 6vh;
+}
+
+.menu a:hover {
+    background-color: #fff;
+    color: #000;
+    height: 6vh;
+}
+  
+.menu a.active {
+    background-color: #fff;
+    color: #000;
+    height: 6vh;
+}
+
+
+
+/* --- BODY --- */
+h1{
+    text-align: center;
+    color: darkblue;
+    margin-top: 10%;
+}
+
+p{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 16px;
+    color: darkgray;
+}
+
+.abertura{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.banner{
+    height: 94vh;
+}
+
+.textos{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+ul{
+    font-size: 16px;
+    color: darkgray;
+    margin-top: 10%;
+}
