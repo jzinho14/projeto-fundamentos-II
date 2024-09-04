@@ -8,9 +8,12 @@ body{
 
 /* --- MENU SUPERIOR --- */
 .menu {
-    background-color: #febc05;
+    background-color: darkblue;
     overflow: hidden;
     height: 6vh;
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
   }
   
 .menu a {
@@ -42,7 +45,7 @@ body{
 h1{
     text-align: center;
     color: darkblue;
-    margin-top: 10%;
+    margin-top: 40%;
 }
 
 p{
@@ -68,7 +71,13 @@ p{
 }
 
 ul{
-    font-size: 16px;
-    color: darkgray;
+    font-size: 32px;
+    color: darkblue;
+    font-weight: bold;
     margin-top: 10%;
+    text-align: center;
+}
+
+li{
+    margin-top: 20%;
 }
